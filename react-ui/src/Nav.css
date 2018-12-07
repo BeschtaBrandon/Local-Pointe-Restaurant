@@ -1,0 +1,69 @@
+nav {
+  min-height: 10vh;
+  background: #000;
+  opacity: 0.8;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.7em;
+  font-size: 1.25em;
+}
+
+nav span {
+  font-size: 1.25em;
+  padding: 0 0.5em;
+  color: #ffb70f;
+  font-family: "Satisfy", cursive;
+}
+
+nav .menu {
+  float: right;
+}
+
+nav .menu span {
+  background-color: #fff;
+  display: block;
+  height: 0.15em;
+  margin: 0.3em;
+  width: 2em;
+}
+
+nav .dropdown-menu {
+  float: right;
+}
+
+nav .dropdown-menu li {
+  padding: .9em;
+}
+
+@media (max-width: 767px) {
+  nav .dropdown-menu li {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 640px) {
+  nav .dropdown-menu li {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  nav .dropdown-menu li {
+    font-size: 1.25;
+  }
+}
+
+nav .dropdown-menu a {
+  color: #fff;
+}
+
+.list-show {
+  background: #000;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 75px;
+  width: 100%;
+}

@@ -1,0 +1,19 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: .5em;
+  right: 1em;
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: none;
+  background: #202020;
+  color: #ffb70f;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  opacity: .9;
+}
+
+.scroll-to-top:hover {
+  cursor: pointer;
+}

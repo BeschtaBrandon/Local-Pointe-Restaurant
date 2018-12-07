@@ -1,0 +1,110 @@
+.banner {
+  background-image: url(img/background_main.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner .arrow-left,
+.banner .arrow-right {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 1.5em;
+  width: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.banner .arrow-left {
+  left: .7em;
+}
+
+@media (min-width: 640px) {
+  .banner .arrow-left {
+    left: 1.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner .arrow-left {
+    left: 3em;
+  }
+}
+
+.banner .arrow-right {
+  right: .7em;
+}
+
+@media (min-width: 640px) {
+  .banner .arrow-right {
+    right: 1.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner .arrow-right {
+    right: 3em;
+  }
+}
+
+.banner .banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 3em 0;
+}
+
+@media (min-width: 640px) {
+  .banner .banner-text {
+    padding: 4em 0;
+  }
+}
+
+.banner .banner-text .banner-heading {
+  width: 70%;
+  text-align: center;
+  margin: .5em auto;
+  font-size: 2em;
+  font-family: "Satisfy", cursive;
+  color: #ffb70f;
+}
+
+@media (min-width: 640px) {
+  .banner .banner-text .banner-heading {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  .banner .banner-text .banner-heading {
+    font-size: 2.5em;
+  }
+}
+
+.banner .banner-text .banner-info {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5em;
+  color: #fff;
+  font-size: 1em;
+}
+
+@media (min-width: 640px) {
+  .banner .banner-text .banner-info {
+    font-size: 2em;
+  }
+}
+
+.banner a {
+  color: #fff;
+}
