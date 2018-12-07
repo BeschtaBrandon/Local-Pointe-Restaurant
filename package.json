@@ -1,0 +1,32 @@
+{
+  "name": "local_pointe_restaurant",
+  "version": "1.0.0",
+  "description": "Website created for the Local Pointe Restaurant located in Lyndon, WI",
+  "engines": {
+    "node": "8.9.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beschtabrandon/local_pointe_restaurant.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "author": "Brandon Beschta",
+  "license": "MIT",
+  "devDependencies": {}
+}
