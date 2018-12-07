@@ -1,7 +1,7 @@
 .welcome-text {
   text-align: center;
   padding: 2em;
-  color: #605a52;
+  color: #42b0f4;
 }
 
 .welcome-text h2 {
@@ -11,7 +11,7 @@
 }
 
 .welcome-text h2 span {
-  color: #ffb70f;
+  color: #42b0f4;
 }
 
 .welcome-text p {
@@ -19,7 +19,7 @@
 }
 
 .welcome-text .button-read-more {
-  background: #c15e07;
+  background: #42b0f4;
   color: #fff;
   width: 20vw;
   cursor: pointer;
@@ -55,7 +55,7 @@
 
 .section-about-us .about-us {
   font-size: 1.25em;
-  width: auto;
+  width: 100%;
   text-align: center;
   padding: 2em;
 }

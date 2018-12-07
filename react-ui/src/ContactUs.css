@@ -1,0 +1,43 @@
+.contact-us {
+  padding: 2.5em 0;
+  background: #fff;
+}
+
+.contact-us h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.contact-us h2 span {
+  color: #ffb70f;
+}
+
+.contact-us .contact-info {
+  height: 5em;
+  padding-left: 1em;
+  border-left: 5px solid #ffb70f;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.contact-us .contact-info p {
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+.contact-us .contact-info a,
+.contact-us .contact-info span {
+  color: #605a52;
+  overflow: hidden;
+}
+
+.contact-us .contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-us .contact-icon {
+  width: 100%;
+  height: 30px;
+}

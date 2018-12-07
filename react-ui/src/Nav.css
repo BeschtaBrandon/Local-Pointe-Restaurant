@@ -29,6 +29,10 @@ nav .menu span {
   width: 2em;
 }
 
+nav .nav-text {
+  color: #f47a42;
+}
+
 nav .dropdown-menu {
   float: right;
 }

@@ -15,9 +15,9 @@ class Banner extends React.Component {
     super(props);
     this.state = {
       elements: [
-        <BannerItem display={ this.props.display } heading='Lorem ipsum dolor' info='Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.'/>,
-        <BannerItem display={ this.props.display } heading='Cras nec augue' info='Phasellus eu vulputate purus, a finibus arcu. Nunc eleifend vehicula eleifend.'/>,
-        <BannerItem display={ this.props.display } heading='Vivamus et vehicula' info='Maecenas tincidunt finibus rhoncus. In efficitur aliquam risus sed euismod.'/>
+        <BannerItem display={ this.props.display } heading='Friendly Staff' info='Always serving with smiles.'/>,
+        <BannerItem display={ this.props.display } heading='Cold Beer' info='Large selection of draft, domestic, and imported beers'/>,
+        <BannerItem display={ this.props.display } heading='Tasty Food' info='Check out our daily specials!'/>
       ],
       index: 0,
       display: 'none'

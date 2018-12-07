@@ -35,8 +35,9 @@ menuNavigateOnClickHandler = event => {
     return <nav style={{ position: this.state.position }}>
       <div className='container'>
         <div className='row'>
-          <div className='col-4 logo'>
-            <p><a href='#'>Your<span>Restaurant</span></a></p>
+          <div className='col-4 logo nav-text'>
+            <p>Local Pointe Restaurant and Bar</p>
+            <p>N1095 WI-16, Lyndon Station, WI 53944</p>
           </div>
           <div className='col-8'>
             <MediaQuery query='(max-width: 639px)'>
@@ -48,7 +49,6 @@ menuNavigateOnClickHandler = event => {
               <ul className='dropdown-menu list-show' style={{ display: this.state.menuDisplayStyle }}>
                 <li><a href='#about-us' onClick={ this.menuNavigateOnClickHandler }>About us</a></li>
                 <li><a href='#menu' onClick={ this.menuNavigateOnClickHandler } >Menu</a></li>
-                <li><a href='#reservation' onClick={ this.menuNavigateOnClickHandler } >Book a table</a></li>
                 <li><a href='#contact-us' onClick={ this.menuNavigateOnClickHandler } >Contact us</a></li>
               </ul>
             </MediaQuery>
@@ -56,7 +56,6 @@ menuNavigateOnClickHandler = event => {
               <ul className='dropdown-menu' style={{ display: 'block'}}>
                 <li><a href='#about-us' onClick={ this.menuNavigateOnClickHandler }>About us</a></li>
                 <li><a href='#menu' onClick={ this.menuNavigateOnClickHandler } >Menu</a></li>
-                <li><a href='#reservation' onClick={ this.menuNavigateOnClickHandler } >Book a table</a></li>
                 <li><a href='#contact-us' onClick={ this.menuNavigateOnClickHandler } >Contact us</a></li>
               </ul>
             </MediaQuery>
